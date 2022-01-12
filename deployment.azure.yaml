@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
       - name: angular 
-        image: baljitsingh582/aks:#{Build.BuildId}#
+        image: baljitsingh582/angular-app:#{Build.BuildId}#
         ports: 
         - containerPort: 80 
 --- 
